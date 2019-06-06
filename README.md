@@ -1,6 +1,6 @@
 # World-Clocks
 
-A Django Website displaying the current time in various world cities.
+A Django Website for displaying the current time in various world cities.
 
 
 ## Tools Used
