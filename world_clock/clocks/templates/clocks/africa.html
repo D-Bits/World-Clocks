@@ -5,10 +5,15 @@
 
     <h2>African Times</h2>
 
-    <div class="times">
-        
-        <p></p>
+    {% for location, time in africa %}
 
-    </div>
+        <div class="times">
+            
+            <h4>{{ africa.location }}</h4>
+            <p>{{ africa.time }}</p>
+
+        </div>
+
+    {% endfor %}
     
 {% endblock %}
