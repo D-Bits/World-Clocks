@@ -13,3 +13,8 @@ def index(request):
     return render(request, template_name)
     
 
+# List all Africa timezones
+class AfricaTimes(ListView):
+
+    model = africa
+    template_name = 'clocks/africa.html'

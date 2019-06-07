@@ -49,6 +49,7 @@ middle_east = {
     'Tel_Aviv': datetime.now(timezone('Asia/Tel_Aviv')),
 }
 
+
 # Dictionary for North American cities
 n_america = {
     'Los_Angles': datetime.now(timezone('US/Pacific')),
@@ -71,6 +72,8 @@ oceania = {
     'Fiji': datetime.now(timezone('Pacific/Auckland')),
 }
 
+
+# Dictionary for S. American cities and their times
 s_america = {
     'Sao_Paulo': datetime.now(timezone('America/Sao_Paulo')),
     'Buenos_Aires': datetime.now(timezone('America/Argentina/Buenos_Aires')),
