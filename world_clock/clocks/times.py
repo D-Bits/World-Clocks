@@ -44,7 +44,9 @@ europe = {
 # Dictionary for Middle East cities
 middle_east = {
     'Isanbul': datetime.now(timezone('Asia/Istanbul')),
-    ''
+    'Riyadh': datetime.now(timezone('Asia/Riyadh')),
+    'Dubai': datetime.now(timezone('Asia/Dubai')),
+    'Tel_Aviv': datetime.now(timezone('Asia/Tel_Aviv')),
 }
 
 # Dictionary for North American cities
@@ -52,6 +54,7 @@ n_america = {
     'Los_Angles': datetime.now(timezone('US/Pacific')),
     'New_York': datetime.now(timezone('US/Eastern')),
     'Toronto': datetime.now(timezone('America/Toronto')),
+    'Mexico_City': datetime.now(timezone('America/Mexico_City')),
     'Detroit': datetime.now(timezone('US/Michagan')),
     'Austin': datetime.now(timezone('US/Central')),
     'Montreal': datetime.now(timezone('America/Montreal')),
@@ -66,4 +69,11 @@ oceania = {
     'Perth': datetime.now(timezone('Australia/Perth')),
     'Honolulu': datetime.now(timezone('US/Hawaii')),
     'Fiji': datetime.now(timezone('Pacific/Auckland')),
+}
+
+s_america = {
+    'Sao_Paulo': datetime.now(timezone('America/Sao_Paulo')),
+    'Buenos_Aires': datetime.now(timezone('America/Argentina/Buenos_Aires')),
+    'Santiago': datetime.now(timezone('America/Santiago')),
+    'Bogota': datetime.now(timezone('America/Bogata')),
 }
