@@ -56,7 +56,7 @@ n_america = {
     'New_York': datetime.now(timezone('US/Eastern')),
     'Toronto': datetime.now(timezone('America/Toronto')),
     'Mexico_City': datetime.now(timezone('America/Mexico_City')),
-    'Detroit': datetime.now(timezone('US/Michagan')),
+    'Detroit': datetime.now(timezone('US/Eastern')),
     'Austin': datetime.now(timezone('US/Central')),
     'Montreal': datetime.now(timezone('America/Montreal')),
     'Anchorage': datetime.now(timezone('US/Alaska')),
@@ -78,5 +78,5 @@ s_america = {
     'Sao_Paulo': datetime.now(timezone('America/Sao_Paulo')),
     'Buenos_Aires': datetime.now(timezone('America/Argentina/Buenos_Aires')),
     'Santiago': datetime.now(timezone('America/Santiago')),
-    'Bogota': datetime.now(timezone('America/Bogata')),
+    'Bogota': datetime.now(timezone('America/Bogota')),
 }

@@ -9,12 +9,16 @@ from . times import (africa, asia, europe, middle_east,
 def index(request):
 
     template_name = 'clocks/index.html'
+    title = "Home "
 
     return render(request, template_name)
     
 
-# List all Africa timezones
-class AfricaTimes(ListView):
+# View for African cities
+def africa_times(request):
 
-    model = africa
     template_name = 'clocks/africa.html'
+    context = africa
+    title = "Africa "
+
+    return render(request, template_name, context=context)
